@@ -10,3 +10,12 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.mynavbar {
+    background-color: rgb(103, 105, 107);
+}
+
+.myjumbotron {
+    background-color: rgb(223, 220, 220);
+    padding: 45px;
+}
