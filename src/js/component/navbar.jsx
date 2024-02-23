@@ -12,8 +12,8 @@ const NavBar = () => {
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse d-flex flex-row-reverse bd-highlight pe-5" id="navbarNav">
-      <ul className="navbar-nav">
+    <div className="collapse navbar-collapse bd-highlight" id="navbarNav">
+      <ul className="navbar-nav position-relative top-0 start-50">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -24,7 +24,7 @@ const NavBar = () => {
           <a className="nav-link" href="#">Services</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+          <a className="nav-link" href="#" tabIndex="-1" aria-disabled="true">Contact</a>
         </li>
       </ul>
     </div>
