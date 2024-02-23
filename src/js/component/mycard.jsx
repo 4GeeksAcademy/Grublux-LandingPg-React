@@ -12,6 +12,7 @@ import cardImage from "../../img/rigo-baby.jpg";
 //create your component
 const MyCard = (props) => {
 	return (		
+			<div class="col d-flex justify-content-center">
 			<div className="card" style={{width: "18rem", backgroundColor: props.bgColor}}>
 				<img src={props.imageUrl} className="card-img-top" alt="..."/>
 				<div className="card-body">
@@ -19,6 +20,7 @@ const MyCard = (props) => {
 					<p className="card-text">{props.description}</p>
 					<a href={props.buttonUrl} className="btn btn-primary">{props.buttonLabel}</a>
 				</div>
+			</div>
 			</div>
 	);
 };

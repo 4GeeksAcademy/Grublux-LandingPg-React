@@ -54,7 +54,6 @@ const Home = () => {
 			<div className="row d-flex justify-content-center">
 				<div className="col-11">
 					<div className="row d-flex justify-content-center">
-						<div className="col d-flex justify-content-center">
 							{myCardArray.map((e, index) => {
 								return <MyCard
 								title={e.title}
@@ -66,7 +65,6 @@ const Home = () => {
 								key = {index}
 							/>
 							})}					
-						</div>
 					</div>
 				</div>				
 			</div>
